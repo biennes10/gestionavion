@@ -1,0 +1,50 @@
+div{
+    width: 450px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+}
+#divPrincipale{
+    width: 900px;
+    height: 900px;
+}
+#divVols{
+    position: relative;
+    float: left;
+    background-color: yellow;
+}
+#divTypesPersonnel{
+    background-color: yellowgreen;
+     float: right;
+}
+#divPersonnels{
+    background-color: lightskyblue;
+    position: relative;
+   float: left;
+}
+#divProgrammerVol{
+    background-color: orange;
+   float: right;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+.steward{
+    background-color: #FF1493;
+}
+.pilote{
+    background-color: #00BFFF;
+}
+.copilote{
+    background-color: #FFD700;
+}
+.hotesse{
+    background-color: #FF6347;
+}
+.indisponible{
+    background-color: #808080;
+}
